@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Welcome, help yourself here!</title>
+  <title>Welcome, help yourself!</title>
   
-  
+  <subtitle>Good Morning, Good Afternoon, Good Night</subtitle>
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
@@ -36,7 +36,7 @@
     <published>2023-07-19T15:26:18.682Z</published>
     <updated>2023-07-25T14:59:25.471Z</updated>
     
-    <content type="html"><![CDATA[<div style="text-align: center">  <div class="github-card"    data-user="shuo-zh"    data-repo=""    data-height="200"    data-width="400"    data-theme="default"    data-target=""    data-client-id=""    data-client-secret=""  ></div></div><script src="/github-card-lib/githubcard.js"></script><p>sudo apt update<br>sudo apt install build-essential —&gt; 安装gcc等<br>sudo apt install python3.8<br>bash Miniconda3-latest-Linux-x86_64.sh<br>bash 进入环境<br>pip install jupter d2l torch torchvision<br>sudo apt install zip<br>ssh -L8888:localhost:8888 <a href="mailto:&#117;&#x62;&#117;&#x6e;&#x74;&#x75;&#64;&#x31;&#48;&#x30;&#46;&#x32;&#48;&#46;&#54;&#x35;&#46;&#51;&#x33;">&#117;&#x62;&#117;&#x6e;&#x74;&#x75;&#64;&#x31;&#48;&#x30;&#46;&#x32;&#48;&#46;&#54;&#x35;&#46;&#51;&#x33;</a> 访问本地888端口<br>pip install rise</p><p>More info: <a href="https://ubuntu.com/">Ubuntu</a></p>]]></content>
+    <content type="html"><![CDATA[<div style="text-align: center">  <div class="github-card"    data-user="shuo-zh"    data-repo=""    data-height="200"    data-width="400"    data-theme="default"    data-target=""    data-client-id=""    data-client-secret=""  ></div></div><script src="/github-card-lib/githubcard.js"></script><p>sudo apt update<br>sudo apt install build-essential —&gt; 安装gcc等<br>sudo apt install python3.8<br>bash Miniconda3-latest-Linux-x86_64.sh<br>bash 进入环境<br>pip install jupter d2l torch torchvision<br>sudo apt install zip<br>ssh -L8888:localhost:8888 <a href="mailto:&#117;&#98;&#x75;&#110;&#x74;&#117;&#64;&#x31;&#x30;&#x30;&#46;&#x32;&#x30;&#x2e;&#x36;&#53;&#x2e;&#51;&#51;">&#117;&#98;&#x75;&#110;&#x74;&#117;&#64;&#x31;&#x30;&#x30;&#46;&#x32;&#x30;&#x2e;&#x36;&#53;&#x2e;&#51;&#51;</a> 访问本地888端口<br>pip install rise</p><p>More info: <a href="https://ubuntu.com/">Ubuntu</a></p>]]></content>
     
     
       
