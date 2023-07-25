@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Welcome, help yourself here!</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2023-07-24T13:58:39.680Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Shuo Zheng</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>recommender_system</title>
+    <link href="http://example.com/2023/07/24/recommender_system/"/>
+    <id>http://example.com/2023/07/24/recommender_system/</id>
+    <published>2023-07-24T13:52:04.000Z</published>
+    <updated>2023-07-24T13:58:39.680Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Ubuntu 装机教程</title>
+    <link href="http://example.com/2023/07/19/ubuntu/"/>
+    <id>http://example.com/2023/07/19/ubuntu/</id>
+    <published>2023-07-19T15:26:18.682Z</published>
+    <updated>2023-07-25T14:59:25.471Z</updated>
+    
+    <content type="html"><![CDATA[<div style="text-align: center">  <div class="github-card"    data-user="shuo-zh"    data-repo=""    data-height="200"    data-width="400"    data-theme="default"    data-target=""    data-client-id=""    data-client-secret=""  ></div></div><script src="/github-card-lib/githubcard.js"></script><p>sudo apt update<br>sudo apt install build-essential —&gt; 安装gcc等<br>sudo apt install python3.8<br>bash Miniconda3-latest-Linux-x86_64.sh<br>bash 进入环境<br>pip install jupter d2l torch torchvision<br>sudo apt install zip<br>ssh -L8888:localhost:8888 <a href="mailto:&#117;&#x62;&#117;&#x6e;&#x74;&#x75;&#64;&#x31;&#48;&#x30;&#46;&#x32;&#48;&#46;&#54;&#x35;&#46;&#51;&#x33;">&#117;&#x62;&#117;&#x6e;&#x74;&#x75;&#64;&#x31;&#48;&#x30;&#46;&#x32;&#48;&#46;&#54;&#x35;&#46;&#51;&#x33;</a> 访问本地888端口<br>pip install rise</p><p>More info: <a href="https://ubuntu.com/">Ubuntu</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;div style=&quot;text-align: center&quot;&gt;
+  &lt;div class=&quot;github-card&quot;
+    data-user=&quot;shuo-zh&quot;
+    data-repo=&quot;&quot;
+    data-height=&quot;200&quot;
+    data-width=&quot;4</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
