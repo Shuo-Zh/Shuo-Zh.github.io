@@ -6,8 +6,7 @@
     <meta charset="utf-8">
     <meta name="keywords" content="Ubuntu 装机教程, Welcome～">
     <meta name="description" content="
-
-sudo apt updatesudo apt install build-essential —&amp;gt; 安装gcc等sudo apt install python3.8bash Miniconda3-latest-Linux-x86">
+Ubuntu 首次装机sudo apt updatesudo apt install build-essential —&amp;gt; 安装gcc等sudo apt install python3.8bash Miniconda3-latest">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -424,8 +423,7 @@ sudo apt updatesudo apt install build-essential —&amp;gt; 安装gcc等sudo apt
 </div>
 <script src="/github-card-lib/githubcard.js"></script>
  -->
-
-<p>sudo apt update<br>sudo apt install build-essential —&gt; 安装gcc等<br>sudo apt install python3.8<br>bash Miniconda3-latest-Linux-x86_64.sh<br>bash 进入环境<br>pip install jupter d2l torch torchvision<br>sudo apt install zip<br>ssh -L8888:localhost:8888 <a href="mailto:&#x75;&#98;&#x75;&#110;&#116;&#117;&#x40;&#49;&#48;&#x30;&#x2e;&#50;&#x30;&#x2e;&#x36;&#x35;&#46;&#51;&#x33;">&#x75;&#98;&#x75;&#110;&#116;&#117;&#x40;&#49;&#48;&#x30;&#x2e;&#50;&#x30;&#x2e;&#x36;&#x35;&#46;&#51;&#x33;</a> 访问本地888端口<br>pip install rise</p>
+<h1 id="Ubuntu-首次装机"><a href="#Ubuntu-首次装机" class="headerlink" title="Ubuntu 首次装机"></a>Ubuntu 首次装机</h1><p>sudo apt update<br>sudo apt install build-essential —&gt; 安装gcc等<br>sudo apt install python3.8<br>bash Miniconda3-latest-Linux-x86_64.sh<br>bash 进入环境<br>pip install jupter d2l torch torchvision<br>sudo apt install zip<br>ssh -L8888:localhost:8888 <a href="mailto:&#117;&#x62;&#117;&#110;&#116;&#117;&#x40;&#49;&#48;&#48;&#x2e;&#x32;&#x30;&#46;&#x36;&#53;&#x2e;&#x33;&#51;">&#117;&#x62;&#117;&#110;&#116;&#117;&#x40;&#49;&#48;&#48;&#x2e;&#x32;&#x30;&#46;&#x36;&#53;&#x2e;&#x33;&#51;</a> 访问本地888端口<br>pip install rise</p>
 <p>More info: <a target="_blank" rel="noopener" href="https://ubuntu.com/">Ubuntu</a></p>
 
                 
@@ -453,7 +451,7 @@ sudo apt updatesudo apt install build-essential —&amp;gt; 安装gcc等sudo apt
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://example.com/2023/07/19/ubuntu/">http://example.com/2023/07/19/ubuntu/</a>
+                    <a href="http://shuo-zh.github.io/2023/07/19/ubuntu/">http://shuo-zh.github.io/2023/07/19/ubuntu/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -532,11 +530,11 @@ sudo apt updatesudo apt install build-essential —&amp;gt; 安装gcc等sudo apt
 
 <script type="text/javascript">
     disqus_config = function () {
-        this.page.url = 'http://example.com/2023/07/19/ubuntu/';
+        this.page.url = 'http://shuo-zh.github.io/2023/07/19/ubuntu/';
         this.page.identifier = '/2023/07/19/ubuntu/';
         this.page.title = 'Ubuntu 装机教程';
     };
-    let disqus_shortname = '';
+    let disqus_shortname = 'shuo-zh';
 
     (function () { // DON'T EDIT BELOW THIS LINE
         let d = document, s = d.createElement('script');
@@ -666,6 +664,43 @@ sudo apt updatesudo apt install build-essential —&amp;gt; 安装gcc等sudo apt
 
 </div>
 
+
+<script>
+    $('#articleContent').on('copy', function (e) {
+        // IE8 or earlier browser is 'undefined'
+        if (typeof window.getSelection === 'undefined') return;
+
+        var selection = window.getSelection();
+        // if the selection is short let's not annoy our users.
+        if (('' + selection).length < Number.parseInt('120')) {
+            return;
+        }
+
+        // create a div outside of the visible area and fill it with the selected text.
+        var bodyElement = document.getElementsByTagName('body')[0];
+        var newdiv = document.createElement('div');
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+        bodyElement.appendChild(newdiv);
+        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+        // we need a <pre> tag workaround.
+        // otherwise the text inside "pre" loses all the line breaks!
+        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE' || selection.getRangeAt(0).commonAncestorContainer.nodeName === 'CODE') {
+            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+        }
+
+        var url = document.location.href;
+        newdiv.innerHTML += '<br />'
+            + '来源: Welcome～<br />'
+            + '文章作者: sure<br />'
+            + '文章链接: <a href="' + url + '">' + url + '</a><br />'
+            + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
+
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
+    });
+</script>
 
 
 <!-- 代码块功能依赖 -->
@@ -850,6 +885,16 @@ sudo apt updatesudo apt install build-essential —&amp;gt; 安装gcc等sudo apt
                 
             
             
+                <span id="busuanzi_container_site_pv">
+                &nbsp;|&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;
+                    <span id="busuanzi_value_site_pv" class="white-color"></span>
+            </span>
+            
+            
+                <span id="busuanzi_container_site_uv">
+                &nbsp;|&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;
+                    <span id="busuanzi_value_site_uv" class="white-color"></span>
+            </span>
             
             <br>
 
@@ -1042,17 +1087,17 @@ $(function () {
     
 
     <!-- 雪花特效 -->
+    
+
+    <!-- 鼠标星星特效 -->
      
         <script type="text/javascript">
             // 只在桌面版网页启用特效
             var windowWidth = $(window).width();
             if (windowWidth > 768) {
-                document.write('<script type="text/javascript" src="/libs/others/snow.js"><\/script>');
+                document.write('<script type="text/javascript" src="/libs/others/star.js"><\/script>');
             }
         </script>
-    
-
-    <!-- 鼠标星星特效 -->
     
 
      

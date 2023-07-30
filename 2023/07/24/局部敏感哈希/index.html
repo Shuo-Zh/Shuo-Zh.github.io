@@ -5,8 +5,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="局部敏感哈希, Welcome～">
-    <meta name="description" content="局部敏感哈希：如何在常数时间内搜索Embedding最近邻？
-在深度学习推荐系统中，我们经常会使用 Embedding 方法对物品和用户进行向量化。在训练物品和用户的 Embedding 向量时，如果二者的 Embedding 在同一个向量">
+    <meta name="description" content="局部敏感哈希如何在常数时间内搜索Embedding最近邻？
+ 在深度学习推荐系统中，我们经常会使用 Embedding 方法对物品和用户进行向量化。在训练物品和用户的 Embedding 向量时，如果二者的 Embedding 在同一个向量">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -409,10 +409,10 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>局部敏感哈希：如何在常数时间内搜索Embedding最近邻？</p>
-<p>在深度学习推荐系统中，我们经常会使用 Embedding 方法对物品和用户进行向量化。在训练物品和用户的 Embedding 向量时，如果二者的 Embedding 在同一个向量空间内（如图 1），我们就可以通过内积、余弦、欧式距离等相似度计算方法，来计算它们之间的相似度，从而通过用户 - 物品相似度进行个性化推荐，或者通过物品 - 物品相似度进行相似物品查找。</p>
-<p>假设，用户和物品的 Embeding 都在一个 k 维的 Embedding 空间中，物品总数为 n，那么遍历计算一个用户和所有物品向量相似度的时间复杂度是多少呢？不难算出是 O(k×n)。虽然这一复杂度是线性的，但物品总数 n 达到百万甚至千万量级时，线性的时间复杂度也是线上服务不能承受的。</p>
-<p>换一个角度思考这个问题，由于用户和物品的 Embedding 同处一个向量空间内，因此召回与用户向量最相似的物品 Embedding 向量这一问题，其实就是在向量空间内搜索最近邻的过程。如果我们能够找到高维空间快速搜索最近邻点的方法，那么相似 Embedding 的快速搜索问题就迎刃而解了。</p>
+                <h1 id="局部敏感哈希"><a href="#局部敏感哈希" class="headerlink" title="局部敏感哈希"></a>局部敏感哈希</h1><p>如何在常数时间内搜索Embedding最近邻？</p>
+<p> 在深度学习推荐系统中，我们经常会使用 <u>Embedding</u> 方法对物品和用户进行向量化。在训练物品和用户的 Embedding 向量时，如果二者的 Embedding 在同一个向量空间内（如图 1），我们就可以通过内积、余弦、欧式距离等相似度计算方法，来计算它们之间的相似度，从而通过用户 - 物品相似度进行个性化推荐，或者通过物品 - 物品相似度进行相似物品查找。</p>
+<p> 假设，用户和物品的 Embeding 都在一个 k 维的 Embedding 空间中，物品总数为 n，那么遍历计算一个用户和所有物品向量相似度的时间复杂度是多少呢？不难算出是 O(k×n)。虽然这一复杂度是线性的，但物品总数 n 达到百万甚至千万量级时，线性的时间复杂度也是线上服务不能承受的。</p>
+<p> 换一个角度思考这个问题，由于用户和物品的 Embedding 同处一个向量空间内，因此召回与用户向量最相似的物品 Embedding 向量这一问题，其实就是在向量空间内搜索最近邻的过程。如果我们能够找到高维空间快速搜索最近邻点的方法，那么相似 Embedding 的快速搜索问题就迎刃而解了。</p>
 
                 
             </div>
@@ -439,7 +439,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://example.com/2023/07/24/%E5%B1%80%E9%83%A8%E6%95%8F%E6%84%9F%E5%93%88%E5%B8%8C/">http://example.com/2023/07/24/%E5%B1%80%E9%83%A8%E6%95%8F%E6%84%9F%E5%93%88%E5%B8%8C/</a>
+                    <a href="http://shuo-zh.github.io/2023/07/24/%E5%B1%80%E9%83%A8%E6%95%8F%E6%84%9F%E5%93%88%E5%B8%8C/">http://shuo-zh.github.io/2023/07/24/%E5%B1%80%E9%83%A8%E6%95%8F%E6%84%9F%E5%93%88%E5%B8%8C/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -518,11 +518,11 @@
 
 <script type="text/javascript">
     disqus_config = function () {
-        this.page.url = 'http://example.com/2023/07/24/%E5%B1%80%E9%83%A8%E6%95%8F%E6%84%9F%E5%93%88%E5%B8%8C/';
+        this.page.url = 'http://shuo-zh.github.io/2023/07/24/%E5%B1%80%E9%83%A8%E6%95%8F%E6%84%9F%E5%93%88%E5%B8%8C/';
         this.page.identifier = '/2023/07/24/%E5%B1%80%E9%83%A8%E6%95%8F%E6%84%9F%E5%93%88%E5%B8%8C/';
         this.page.title = '局部敏感哈希';
     };
-    let disqus_shortname = '';
+    let disqus_shortname = 'shuo-zh';
 
     (function () { // DON'T EDIT BELOW THIS LINE
         let d = document, s = d.createElement('script');
@@ -651,6 +651,43 @@
 
 </div>
 
+
+<script>
+    $('#articleContent').on('copy', function (e) {
+        // IE8 or earlier browser is 'undefined'
+        if (typeof window.getSelection === 'undefined') return;
+
+        var selection = window.getSelection();
+        // if the selection is short let's not annoy our users.
+        if (('' + selection).length < Number.parseInt('120')) {
+            return;
+        }
+
+        // create a div outside of the visible area and fill it with the selected text.
+        var bodyElement = document.getElementsByTagName('body')[0];
+        var newdiv = document.createElement('div');
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+        bodyElement.appendChild(newdiv);
+        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+        // we need a <pre> tag workaround.
+        // otherwise the text inside "pre" loses all the line breaks!
+        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE' || selection.getRangeAt(0).commonAncestorContainer.nodeName === 'CODE') {
+            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+        }
+
+        var url = document.location.href;
+        newdiv.innerHTML += '<br />'
+            + '来源: Welcome～<br />'
+            + '文章作者: sure<br />'
+            + '文章链接: <a href="' + url + '">' + url + '</a><br />'
+            + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
+
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
+    });
+</script>
 
 
 <!-- 代码块功能依赖 -->
@@ -835,6 +872,16 @@
                 
             
             
+                <span id="busuanzi_container_site_pv">
+                &nbsp;|&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;
+                    <span id="busuanzi_value_site_pv" class="white-color"></span>
+            </span>
+            
+            
+                <span id="busuanzi_container_site_uv">
+                &nbsp;|&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;
+                    <span id="busuanzi_value_site_uv" class="white-color"></span>
+            </span>
             
             <br>
 
@@ -1027,17 +1074,17 @@ $(function () {
     
 
     <!-- 雪花特效 -->
+    
+
+    <!-- 鼠标星星特效 -->
      
         <script type="text/javascript">
             // 只在桌面版网页启用特效
             var windowWidth = $(window).width();
             if (windowWidth > 768) {
-                document.write('<script type="text/javascript" src="/libs/others/snow.js"><\/script>');
+                document.write('<script type="text/javascript" src="/libs/others/star.js"><\/script>');
             }
         </script>
-    
-
-    <!-- 鼠标星星特效 -->
     
 
      
